@@ -1,0 +1,2 @@
+python310
+gunicorn -w -k uvicorn.workers.UvicornWorker main:app
